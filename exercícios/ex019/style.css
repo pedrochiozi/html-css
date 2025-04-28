@@ -1,0 +1,46 @@
+@charset "UTF8";
+
+main{
+    background-color: azure;
+    border-radius: 10px;
+    margin: auto;
+    padding: 30px;
+    width: 600px;    
+}
+body{
+    background-color: rgb(182, 182, 251);
+    font-family: Arial, Helvetica, sans-serif;
+    /*oq no HTML é 'id' no CSS é '#'
+    oq no HTML é 'class' no CSS é '.'*/
+    
+    
+}
+h1{
+    text-align: left;
+    color: rgb(117, 117, 236); 
+
+}
+h1#principal { color: blue;
+    font-size: 2em;
+    text-align: center;
+
+}
+
+h2{
+    color: rgb(25, 25, 55);
+}
+p{
+    text-indent: 30px;
+    text-align: justify;
+}
+.básico{
+    color: rgb(181, 76, 174);
+}
+
+.inter{
+color:rgb(181, 76, 76) ;
+font-weight: bold;
+}
+.avançado{
+color: rgb(76, 181, 83);
+}
