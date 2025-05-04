@@ -6,18 +6,23 @@
     <title>Document</title>
     <style>
         body{
-            background-color: black;
-            background-image: url(imagens/wallpaper002.jpg);
+            
+            /* background-image: url(imagens/wallpaper002.jpg);
             height: 100vh;
             background-position: center center;
             background-size:cover ;
             background-repeat: no-repeat;
+            background-attachment: fixed; */
+            
+            /* shorthands background
+            baxkground= color > image > position > repeat > [SIZE] > attachment*/
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
 
 
         }
         main{
             width: 400px;
-            border: 7px solid black;
+            border: 2px solid black;
             color: black;
             background-color: white;
             margin: auto;
@@ -26,6 +31,10 @@
 
 
 
+        }
+        p{
+            text-align: justify;
+            text-indent: 30px;
         }
     </style>
 </head>
